@@ -1,7 +1,7 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id:    0        # If using wokwi, set this to your project's ID
+  wokwi_id:    362633503928580097        # If using wokwi, set this to your project's ID
 
 # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. 
 # Source files must be in ./src and you must list each source file separately
@@ -18,23 +18,23 @@ yaml_version: 3.0
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
-  author:       ""      # Your name
-  title:        ""      # Project title
+  author:       "Pascual Bravo"      # Your name
+  title:        "Hola"      # Project title
   language:     "Wokwi" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  ""      # Short description of what your project does
+  description:  "Chip de prueba"      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
-  how_it_works: |
+  how_it_works: "con dos entradas va mostrando la palabra H-O-L-A"
       Explain how your project works
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
-  how_to_test:  |
+  how_to_test:  "hacer la combinación 00,01,10,11"
       Explain how to test your project
 
 # A description of what the inputs do
   inputs:               
-    - clock
-    - reset
+    - A0
+    - A1
     - none
     - none
     - none
