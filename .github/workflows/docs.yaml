@@ -1,4 +1,4 @@
-name: docs
+name: docs 
 # either manually started, or on a schedule
 on: [ push, workflow_dispatch ]
 permissions:
