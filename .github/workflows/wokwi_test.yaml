@@ -1,4 +1,4 @@
-name: wokwi_test
+name: wokwi_test 
 # either manually started, or on a schedule
 on: [ push, workflow_dispatch ]
 jobs:
